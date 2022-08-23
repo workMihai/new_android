@@ -96,7 +96,7 @@ class IdenfySdkFlutterPlugin: FlutterPlugin, MethodCallHandler, ActivityAware, P
         .withLivenessUISettings(idenfyLivenessUISettings)
         .build()
 
-      val idenfySettingsV2 = IdenfySettingsV2.IdenfyBuilderV2()
+      val idenfySettingsV2 = IdenfySettingsV2.IdenfyBuilderV2().withConfirmationView(idenfyOnBoardingViewTypeEnum: IdenfyOnBoardingViewTypeEnum.SINGLE)
         .withAuthToken(call.argument<String>("authToken")!!)
         .withIdenfyUISettingsV2(idenfyUISettingsV2)
         .withLogging(IdenfySDKLoggingSettings.IdenfySDKLoggingEnum.FULL)

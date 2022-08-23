@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="android/src/main/res/drawable/border.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/border_bold.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/border_bold_2.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/border_radius.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/camera_rectangle.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/ic_launcher_background.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/idenfy_custom_country_recyclerview_item_background.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/idenfy_custom_document_recyclerview_item_background.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/idenfy_ic_documents_type_selection_driver_license_v2.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/idenfy_ic_documents_type_selection_id_card_v2.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/idenfy_ic_documents_type_selection_passport_v2.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/idenfy_ic_documents_type_selection_residence_permit_v2.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/idenfy_ic_results_view_step_spinner_status_success_v2.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/nothing_drawed.xml" value="0.161" />
+        <entry key="android/src/main/res/drawable/radio_selector.xml" value="0.161" />
         <entry key="android/src/main/res/layout/activity_confirm_document.xml" value="0.2884963768115942" />
       </map>
     </option>

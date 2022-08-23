@@ -14,6 +14,7 @@ import com.idenfy.idenfySdk.api.initialization.IdenfySettingsV2
 import com.idenfy.idenfySdk.api.liveliness.IdenfyLivenessUISettings
 import com.idenfy.idenfySdk.api.logging.IdenfySDKLoggingSettings
 import com.idenfy.idenfySdk.api.response.IdenfyIdentificationResult
+import com.idenfy.idenfySdk.api.ui.IdenfyComposeViewBuilder
 import com.idenfy.idenfySdk.api.ui.IdenfyUISettingsV2
 import com.idenfy.idenfySdk.camerasession.commoncamerasession.presentation.model.IdenfyInstructionsType
 
@@ -96,7 +97,7 @@ class IdenfySdkFlutterPlugin: FlutterPlugin, MethodCallHandler, ActivityAware, P
         .withLivenessUISettings(idenfyLivenessUISettings)
         .build()
 
-      val idenfySettingsV2 = IdenfySettingsV2.IdenfyBuilderV2().withConfirmationView(idenfyOnBoardingViewTypeEnum: IdenfyOnBoardingViewTypeEnum.SINGLE)
+      val idenfySettingsV2 = IdenfySettingsV2.IdenfyBuilderV2()
         .withAuthToken(call.argument<String>("authToken")!!)
         .withIdenfyUISettingsV2(idenfyUISettingsV2)
         .withLogging(IdenfySDKLoggingSettings.IdenfySDKLoggingEnum.FULL)

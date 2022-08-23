@@ -10,7 +10,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath 'com.android.tools.build:gradle:4.2.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -34,12 +34,11 @@ android {
     }
     defaultConfig {
         multiDexEnabled true
-        minSdkVersion 19
+        minSdkVersion 21
     }
     compileOptions {
-        // Sets Java compatibility to Java 11
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
     }
 }
 

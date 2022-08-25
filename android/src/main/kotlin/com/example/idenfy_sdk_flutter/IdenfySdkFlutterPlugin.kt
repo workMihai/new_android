@@ -9,7 +9,6 @@ import androidx.core.content.res.ResourcesCompat
 import com.facetec.sdk.FaceTecCancelButtonCustomization
 import com.facetec.sdk.FaceTecCustomization
 import com.google.gson.Gson
-import com.idenfy.idenfySdk.api.models.IdenfyOnBoardingViewTypeEnum
 import com.idenfy.idenfySdk.CoreSdkInitialization.IdenfyController
 import com.idenfy.idenfySdk.api.initialization.IdenfySettingsV2
 import com.idenfy.idenfySdk.api.liveliness.IdenfyLivenessUISettings
@@ -92,8 +91,7 @@ class IdenfySdkFlutterPlugin: FlutterPlugin, MethodCallHandler, ActivityAware, P
       faceTechCustom.resultScreenCustomization.foregroundColor = Color.parseColor("#FFFFFF")
       idenfyLivenessUISettings.livenessCustomUISettings = faceTechCustom
 
-      val idenfyUISettingsV2 = IdenfyUISettingsV2.IdenfyUIBuilderV2().withConfirmationView(
-        IdenfyOnBoardingViewTypeEnum.SINGLE)
+      val idenfyUISettingsV2 = IdenfyUISettingsV2.IdenfyUIBuilderV2()
         .withInstructions(IdenfyInstructionsType.DRAWER)
         .withLivenessUISettings(idenfyLivenessUISettings)
         .build()

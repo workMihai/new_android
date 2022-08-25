@@ -308,7 +308,8 @@
                     app:customfont="hkgrotesk_bold.ttf"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingClass" />
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/idenfy_recyclerview_confirmation_view_selected_document_type_steps"

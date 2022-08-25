@@ -3,29 +3,45 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.161" />
-        <entry key="src/main/res/drawable/border.xml" value="0.161" />
-        <entry key="src/main/res/drawable/border_bold.xml" value="0.161" />
-        <entry key="src/main/res/drawable/border_bold_1.xml" value="0.161" />
-        <entry key="src/main/res/drawable/border_bold_2.xml" value="0.161" />
-        <entry key="src/main/res/drawable/border_radius.xml" value="0.161" />
-        <entry key="src/main/res/drawable/borderbottom.xml" value="0.161" />
-        <entry key="src/main/res/drawable/camera_rectangle.xml" value="0.161" />
-        <entry key="src/main/res/drawable/country_recycler_background.xml" value="0.161" />
-        <entry key="src/main/res/drawable/cursor.xml" value="0.161" />
-        <entry key="src/main/res/drawable/empty.xml" value="0.161" />
-        <entry key="src/main/res/drawable/ic_launcher_background.xml" value="0.161" />
-        <entry key="src/main/res/drawable/idenfy_custom_country_recyclerview_item_background.xml" value="0.161" />
-        <entry key="src/main/res/drawable/idenfy_ic_documents_type_selection_id_card_v2.xml" value="0.161" />
-        <entry key="src/main/res/drawable/idenfy_ic_documents_type_selection_passport_v2.xml" value="0.161" />
-        <entry key="src/main/res/drawable/idenfy_ic_documents_type_selection_residence_permit_v2.xml" value="0.161" />
-        <entry key="src/main/res/drawable/idenfy_ic_results_view_step_spinner_status_success_v2.xml" value="0.161" />
-        <entry key="src/main/res/drawable/nothing_drawed.xml" value="0.161" />
-        <entry key="src/main/res/layout/activity_confirm_document.xml" value="0.11481481481481481" />
-        <entry key="src/main/res/layout/activity_document_type.xml" value="0.1" />
-        <entry key="src/main/res/layout/idenfy_fragment_splash_screen_v2.xml" value="0.1" />
-        <entry key="src/main/res/layout/idenfy_item_document_issuing_country_selection_v2.xml" value="0.1" />
-        <entry key="src/main/res/layout/idenfy_item_documents_type_selection_v2.xml" value="0.1" />
+        <entry key="src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16" />
+        <entry key="src/main/res/drawable-v24/radio_selector.xml" value="0.16" />
+        <entry key="src/main/res/drawable/border.xml" value="0.16" />
+        <entry key="src/main/res/drawable/border_bold.xml" value="0.16" />
+        <entry key="src/main/res/drawable/border_bold_1.xml" value="0.16" />
+        <entry key="src/main/res/drawable/border_radius.xml" value="0.16" />
+        <entry key="src/main/res/drawable/borderbottom.xml" value="0.16" />
+        <entry key="src/main/res/drawable/camera_rectangle.xml" value="0.16" />
+        <entry key="src/main/res/drawable/country_recycler_background.xml" value="0.16" />
+        <entry key="src/main/res/drawable/ic_launcher_background.xml" value="0.16" />
+        <entry key="src/main/res/drawable/idenfy_custom_country_recyclerview_item_background.xml" value="0.16" />
+        <entry key="src/main/res/drawable/idenfy_custom_document_recyclerview_item_background.xml" value="0.16" />
+        <entry key="src/main/res/drawable/idenfy_ic_documents_type_selection_driver_license_v2.xml" value="0.16" />
+        <entry key="src/main/res/drawable/idenfy_ic_documents_type_selection_id_card_v2.xml" value="0.16" />
+        <entry key="src/main/res/drawable/idenfy_ic_documents_type_selection_passport_v2.xml" value="0.16" />
+        <entry key="src/main/res/drawable/idenfy_ic_documents_type_selection_residence_permit_v2.xml" value="0.16" />
+        <entry key="src/main/res/drawable/idenfy_ic_results_view_step_spinner_status_success_v2.xml" value="0.16" />
+        <entry key="src/main/res/drawable/nothing_drawed.xml" value="0.1105" />
+        <entry key="src/main/res/drawable/radio_selector.xml" value="0.16" />
+        <entry key="src/main/res/layout/activity_confirm_document.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/layout/activity_document_type.xml" value="0.335" />
+        <entry key="src/main/res/layout/activity_main.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/layout/activity_select_country.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/layout/country_list_item.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/layout/document_list_item.xml" value="0.20606884057971014" />
+        <entry key="src/main/res/layout/idenfy_dialog_liveness_id_check_loading_v2.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/layout/idenfy_dialog_sample_app.xml" value="0.23369565217391305" />
+        <entry key="src/main/res/layout/idenfy_fragment_document_issuing_country_selection_v2.xml" value="0.4779874213836478" />
+        <entry key="src/main/res/layout/idenfy_fragment_document_photo_result_with_questions_v2.xml" value="0.23369565217391305" />
+        <entry key="src/main/res/layout/idenfy_fragment_documents_type_selection_v2.xml" value="0.23369565217391305" />
+        <entry key="src/main/res/layout/idenfy_fragment_splash_screen_v2.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/layout/idenfy_item_document_issuing_country_selection_v2.xml" value="0.625" />
+        <entry key="src/main/res/layout/idenfy_item_documents_type_selection_v2.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/layout/idenfy_item_identification_results_step_state_v2.xml" value="0.23369565217391305" />
+        <entry key="src/main/res/layout/idenfy_partial_layout_camera_photo_result_appbarlayout_v2.xml" value="0.23369565217391305" />
+        <entry key="src/main/res/layout/idenfy_partial_layout_camera_session_appbarlayout_v2.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/layout/idenfy_partial_layout_common_appbarlayout_v2.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/layout/idenfy_partial_layout_common_appbarlayout_with_language_selection_v2.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/layout/idenfy_partial_layout_common_appbarlayout_without_back_button_v2.xml" value="0.23369565217391305" />
       </map>
     </option>
   </component>

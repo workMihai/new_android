@@ -52,7 +52,20 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="35dp"
                     app:srcCompat="@drawable/arrow_back" />
-
+                <ImageView
+                    android:id="@+id/idenfy_imageview_common_toggle_flash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="16dp"
+                    android:visibility="gone"
+                    app:tint="@color/idenfyCameraPreviewSessionAppBarCameraFlashButtonTintColor"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/idenfy_ic_flash_off" />
                 <com.idenfy.idenfySdk.uicomponents.IDenfyTextView
                     android:id="@+id/idenfy_textview_camera_session_back_title"
                     android:layout_width="wrap_content"

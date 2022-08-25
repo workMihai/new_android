@@ -14,7 +14,6 @@ import com.idenfy.idenfySdk.api.initialization.IdenfySettingsV2
 import com.idenfy.idenfySdk.api.liveliness.IdenfyLivenessUISettings
 import com.idenfy.idenfySdk.api.logging.IdenfySDKLoggingSettings
 import com.idenfy.idenfySdk.api.response.IdenfyIdentificationResult
-import com.idenfy.idenfySdk.api.ui.IdenfyComposeViewBuilder
 import com.idenfy.idenfySdk.api.ui.IdenfyUISettingsV2
 import com.idenfy.idenfySdk.camerasession.commoncamerasession.presentation.model.IdenfyInstructionsType
 

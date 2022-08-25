@@ -39,7 +39,18 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.6"
                     app:srcCompat="@drawable/idenfy_ic_idenfy_logo_vector_v2" />
-
+                <ImageView
+                    android:id="@+id/idenfy_imageview_common_face_not_detected_alert"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginBottom="8dp"
+                    android:visibility="gone"
+                    app:tint="@color/idenfyCameraPreviewSessionAppBarFaceNotDetectedAlertTintColor"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/idenfy_ic_info_alert" />
                 <ImageView
                     android:id="@+id/idenfy_imageview_common_back_button"
                     android:tint="@color/idenfyCameraPreviewSessionAppBarBackButtonTintColor"
@@ -52,6 +63,22 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="35dp"
                     app:srcCompat="@drawable/arrow_back" />
+                <ImageView
+                    android:id="@+id/idenfy_imageview_common_open_intructions_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="16dp"
+                    android:visibility="gone"
+                    app:tint="@color/idenfyCameraPreviewSessionAppBarCameraFlashButtonTintColor"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/idenfy_imageview_common_toggle_flash"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/idenfy_ic_open_instructions_dialog" />
                 <ImageView
                     android:id="@+id/idenfy_imageview_common_toggle_flash"
                     android:layout_width="wrap_content"

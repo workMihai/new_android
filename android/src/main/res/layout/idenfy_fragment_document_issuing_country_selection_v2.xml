@@ -77,27 +77,76 @@
         app:layout_constraintTop_toTopOf="@+id/idenfy_searchview_issuing_country_selection_select_country" />
 
 
-    <androidx.appcompat.widget.SearchView
+<!--    <androidx.appcompat.widget.SearchView-->
+<!--        android:id="@+id/idenfy_searchview_issuing_country_selection_select_country"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:background="@drawable/borderbottom"-->
+<!--        android:textColorPrimary="#161617"-->
+<!--        android:theme="@style/AppTheme.SearchView"-->
+<!--        app:iconifiedByDefault="false"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/idenfy_recyclerview_issuing_country_selection_select"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/idenfy_recyclerview_issuing_country_selection_select"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/idenfy_constraintlayout_common_information"-->
+<!--        app:queryBackground="@android:color/transparent"-->
+<!--        app:defaultQueryHint="Choose the country"-->
+<!--        app:queryHint="Choose the country"-->
+
+<!--        />-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/idenfy_searchview_issuing_country_selection_select_country"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
         android:layout_width="0dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="60dp"
         android:background="@drawable/borderbottom"
-        android:textColorPrimary="#161617"
-        android:theme="@style/AppTheme.SearchView"
-        app:iconifiedByDefault="false"
         app:layout_constraintEnd_toEndOf="@+id/idenfy_recyclerview_issuing_country_selection_select"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/idenfy_recyclerview_issuing_country_selection_select"
         app:layout_constraintTop_toBottomOf="@+id/idenfy_constraintlayout_common_information"
-        app:queryBackground="@android:color/transparent"
-        android:tooltipText="Select Country"
-        app:defaultQueryHint="Choose the country"
-        app:searchIcon="@drawable/arrow_down"
-        app:queryHint="Choose the country"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:gravity="center_vertical">
 
-        />
+        <ImageView
+            android:layout_width="20dp"
+            android:labelFor="@+id/idenfy_searchview_issuing_country_selection_select_country"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/arrow_down"/>
 
+        <EditText
+            android:id="@+id/edt_search_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:theme="@style/AppTheme.SearchView"
+            android:imeOptions="actionSearch"
+            android:hint="idi nahui"
+            android:paddingLeft="8dp"
+            android:textColorPrimary="#161617"
+            android:paddingRight="8dp"
+            android:lines="1"
+            android:textColorHint="#161617"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@android:color/transparent"/>
+
+        <ImageView
+            android:id="@+id/iv_clear_text"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:adjustViewBounds="true"
+            android:labelFor="@+id/idenfy_searchview_issuing_country_selection_select_country"
+            android:visibility="visible"
+            android:src="@drawable/arrow_down"/>
+
+    </LinearLayout>
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/idenfy_imageview_issuing_country_selection_select_country_search"
         android:layout_width="1dp"

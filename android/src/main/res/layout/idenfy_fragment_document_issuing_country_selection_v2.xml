@@ -90,7 +90,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/idenfy_recyclerview_issuing_country_selection_select"
         app:layout_constraintTop_toBottomOf="@+id/idenfy_constraintlayout_common_information"
-        app:queryBackground="@android:color/red"
+        app:queryBackground="@android:color/transparent"
         android:tooltipText="Select Country"
         app:defaultQueryHint="Choose the country"
         app:searchIcon="@drawable/arrow_down"

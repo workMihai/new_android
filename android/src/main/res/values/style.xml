@@ -8,8 +8,8 @@
     </style>
 
     <style name="AppTheme.SearchView" parent="Widget.AppCompat.SearchView">
-        <item name="searchHintIcon">@null</item>
-        <item name="searchIcon">@null</item>
+<!--        <item name="searchHintIcon">@null</item>-->
+<!--        <item name="searchIcon">@null</item>-->
         <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">@font/sfpro_regular</item>
         <item name="android:textColor">#161617</item>

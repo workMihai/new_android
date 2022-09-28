@@ -30,7 +30,7 @@
         <entry key="src/main/res/layout/document_list_item.xml" value="0.20606884057971014" />
         <entry key="src/main/res/layout/idenfy_dialog_liveness_id_check_loading_v2.xml" value="0.16894630192502533" />
         <entry key="src/main/res/layout/idenfy_dialog_sample_app.xml" value="0.23369565217391305" />
-        <entry key="src/main/res/layout/idenfy_fragment_document_issuing_country_selection_v2.xml" value="0.4779874213836478" />
+        <entry key="src/main/res/layout/idenfy_fragment_document_issuing_country_selection_v2.xml" value="0.45" />
         <entry key="src/main/res/layout/idenfy_fragment_document_photo_result_with_questions_v2.xml" value="0.23369565217391305" />
         <entry key="src/main/res/layout/idenfy_fragment_documents_type_selection_v2.xml" value="0.23369565217391305" />
         <entry key="src/main/res/layout/idenfy_fragment_identification_resuts_fragment_v2.xml" value="0.15896739130434784" />

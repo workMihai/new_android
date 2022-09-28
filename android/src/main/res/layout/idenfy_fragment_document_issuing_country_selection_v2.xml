@@ -92,21 +92,20 @@
         app:layout_constraintStart_toStartOf="@+id/idenfy_recyclerview_issuing_country_selection_select"
         app:layout_constraintTop_toBottomOf="@+id/idenfy_constraintlayout_common_information"
         app:queryBackground="@android:color/transparent"
-        app:searchIcon="@drawable/arrow_back"
+        app:searchIcon="@drawable/arrow_down"
         app:queryHint="Tap here"
         />
 
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/idenfy_imageview_issuing_country_selection_select_country_search"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
         android:clickable="false"
         android:focusable="false"
-        android:visibility="invisible"
         android:focusableInTouchMode="false"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/idenfy_textview_issuing_country_selection_select_country_hint"
         app:layout_constraintEnd_toEndOf="@+id/idenfy_recyclerview_issuing_country_selection_select"
         app:layout_constraintTop_toTopOf="@+id/idenfy_textview_issuing_country_selection_select_country_hint"

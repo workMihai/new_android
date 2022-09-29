@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../.gradle/caches/transforms-2/files-2.1/ab80702967bbd76e5bfebe1afe18f56e/jetified-sdk-api-6.0.0/res/drawable/idenfy_custom_country_searchview_background.xml" value="0.2045" />
         <entry key="src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16" />
         <entry key="src/main/res/drawable-v24/radio_selector.xml" value="0.16" />
         <entry key="src/main/res/drawable/border.xml" value="0.16" />
@@ -32,12 +33,15 @@
         <entry key="src/main/res/layout/document_list_item.xml" value="0.20606884057971014" />
         <entry key="src/main/res/layout/idenfy_dialog_liveness_id_check_loading_v2.xml" value="0.16894630192502533" />
         <entry key="src/main/res/layout/idenfy_dialog_sample_app.xml" value="0.23369565217391305" />
+        <entry key="src/main/res/layout/idenfy_fragment_document_issuing_country_country_selection_predefined_country_v2.xml" value="0.335" />
         <entry key="src/main/res/layout/idenfy_fragment_document_issuing_country_selection_v2.xml" value="0.45" />
+        <entry key="src/main/res/layout/idenfy_fragment_document_issuing_country_selection_v21.xml" value="0.45" />
         <entry key="src/main/res/layout/idenfy_fragment_document_photo_result_with_questions_v2.xml" value="0.23369565217391305" />
         <entry key="src/main/res/layout/idenfy_fragment_documents_type_selection_v2.xml" value="0.23369565217391305" />
         <entry key="src/main/res/layout/idenfy_fragment_identification_resuts_fragment_v2.xml" value="0.15896739130434784" />
         <entry key="src/main/res/layout/idenfy_fragment_splash_screen_v2.xml" value="0.16894630192502533" />
         <entry key="src/main/res/layout/idenfy_item_document_issuing_country_selection_v2.xml" value="0.12956204379562045" />
+        <entry key="src/main/res/layout/idenfy_item_document_issuing_country_selection_v21.xml" value="0.375" />
         <entry key="src/main/res/layout/idenfy_item_documents_type_selection_v2.xml" value="0.16894630192502533" />
         <entry key="src/main/res/layout/idenfy_item_identification_results_step_state_v2.xml" value="0.23369565217391305" />
         <entry key="src/main/res/layout/idenfy_partial_layout_camera_photo_result_appbarlayout_v2.xml" value="0.23369565217391305" />

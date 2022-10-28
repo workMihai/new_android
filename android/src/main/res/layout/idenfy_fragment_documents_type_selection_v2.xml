@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
             android:textSize="12sp"
-            android:fontFamily="@font/sfpro_regular"
+            android:fontFamily="@font/regular"
             android:textColor="#494949"
             app:layout_constraintStart_toStartOf="@+id/idenfy_textview_common_information_title"
             app:layout_constraintTop_toBottomOf="@+id/idenfy_textview_common_information_title" />

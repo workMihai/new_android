@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/label"
         app:layout_constraintStart_toEndOf="@+id/back"
         android:textSize="14sp"
-        android:fontFamily="@font/sfpro_regular"
+        android:fontFamily="@font/regular"
         android:text="Please have your identity card ready to identify"
         android:textColor="#494949"
         />

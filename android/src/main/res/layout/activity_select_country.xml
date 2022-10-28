@@ -35,7 +35,7 @@
         app:layout_constraintTop_toBottomOf="@+id/label"
         app:layout_constraintStart_toEndOf="@+id/back"
         android:textSize="14sp"
-        android:fontFamily="@font/sfpro_regular"
+        android:fontFamily="@font/regular"
         android:text="Choose the country where your document was issued"
         android:textColor="#494949"
         />
@@ -48,7 +48,7 @@
         android:layout_marginTop="40dp"
         android:textSize="12sp"
         android:layout_marginStart="22dp"
-        android:fontFamily="@font/sfpro_regular"
+        android:fontFamily="@font/regular"
         android:text="Document’s country"
         android:textColor="#ADAEAF"
         />
@@ -62,7 +62,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:singleLine="true"
-        android:fontFamily="@font/sfpro_regular"
+        android:fontFamily="@font/regular"
         android:imeOptions="actionDone"
         app:backgroundTint="#E8EAF0"
         android:textCursorDrawable="@null"

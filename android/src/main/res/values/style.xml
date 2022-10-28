@@ -46,7 +46,6 @@
             <item name="android:windowMinWidthMajor">100%</item>
             <item name="android:windowMinWidthMinor">100%</item>
             <item name="android:windowIsTranslucent">true</item>
-            <item name="colorSurface">#ffff</item>
         </style>
 
         <style name="LoadingSpinner">

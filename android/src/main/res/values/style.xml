@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <style name="IdenfyStyleAlertDialog" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
 
     <style name="AppTheme.SearchView" parent="Widget.AppCompat.SearchView">
-<!--        <item name="searchHintIcon">@null</item>-->
-<!--        <item name="searchIcon">@null</item>-->
+        <!--        <item name="searchHintIcon">@null</item>-->
+        <!--        <item name="searchIcon">@null</item>-->
         <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">@font/sfpro_regular</item>
         <item name="android:textColor">#161617</item>
@@ -15,53 +20,4 @@
     <style name="cursorColor" parent="Widget.AppCompat.AutoCompleteTextView">
         <item name="android:textCursorDrawable">@drawable/cursor</item>
     </style>
-    <resources xmlns:tools="http://schemas.android.com/tools">
-
-        <style name="IdenfyTheme" parent="Theme.MaterialComponents.NoActionBar">
-            <item name="colorPrimary">@color/idenfyColorPrimary</item>
-            <item name="colorPrimaryDark">@color/idenfyColorPrimaryDark</item>
-            <item name="colorAccent">@color/idenfyColorAccent</item>
-        </style>
-
-        <style name="IdenfyThemeV2" parent="Theme.MaterialComponents.NoActionBar">
-            <item name="colorPrimary">@color/idenfyMainColorV2</item>
-            <item name="colorPrimaryDark">@color/idenfySecondColorV2</item>
-            <item name="colorAccent">@color/idenfyGradientAccentV2</item>
-        </style>
-
-        <style name="IdenfyTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
-
-        <style name="progressBarBlue" parent="@style/Theme.MaterialComponents">
-            <item name="colorAccent">@color/idenfyResultsLoadingIconColor</item>
-            <item name="colorPrimary">@color/idenfyResultsLoadingIconColor</item>
-        </style>
-
-        <style name="IdenfyStyleDialog" parent="Theme.MaterialComponents.Light.Dialog">
-            <item name="android:windowMinWidthMajor">100%</item>
-            <item name="android:windowMinWidthMinor">100%</item>
-            <item name="android:windowIsTranslucent">true</item>
-        </style>
-
-        <style name="IdenfyStyleAlertDialog" parent="Theme.MaterialComponents.Light.Dialog.Alert">
-            <item name="android:windowMinWidthMajor">100%</item>
-            <item name="android:windowMinWidthMinor">100%</item>
-            <item name="android:windowIsTranslucent">true</item>
-        </style>
-
-        <style name="LoadingSpinner">
-            <item name="android:indeterminateOnly">true</item>
-            <item name="android:maxWidth">200dip</item>
-            <item name="android:maxHeight">200dip</item>
-        </style>
-
-        <style name="LoadingSpinner.Circle">
-            <item name="LoadingSpinner_Style">Circle</item>
-        </style>
-
-        <style name="LoadingSpinner.FadingCircle">
-            <item name="LoadingSpinner_Style">FadingCircle</item>
-        </style>
-
-    </resources>
-
 </resources>

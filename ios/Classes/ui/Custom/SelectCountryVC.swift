@@ -72,7 +72,6 @@ class SelectCountryVC: UIViewController {
         textEditElement.translatesAutoresizingMaskIntoConstraints = false
         textEditElement.adjustsFontSizeToFitWidth = true
         textEditElement.delegate = self
-        textEditElement.placeholder.text = "Select country"
         textEditElement.returnKeyType = .done
         return textEditElement
     }()

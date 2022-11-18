@@ -25,7 +25,8 @@
         <entry key="src/main/res/drawable/idenfy_ic_results_view_step_spinner_status_success_v2.xml" value="0.16" />
         <entry key="src/main/res/drawable/nothing_drawed.xml" value="0.1105" />
         <entry key="src/main/res/drawable/radio_selector.xml" value="0.16" />
-        <entry key="src/main/res/layout/activity_confirm_document.xml" value="0.16894630192502533" />
+        <entry key="src/main/res/font/regular.xml" value="0.30625" />
+        <entry key="src/main/res/layout/activity_confirm_document.xml" value="0.5" />
         <entry key="src/main/res/layout/activity_document_type.xml" value="0.335" />
         <entry key="src/main/res/layout/activity_main.xml" value="0.16894630192502533" />
         <entry key="src/main/res/layout/activity_select_country.xml" value="0.16894630192502533" />
